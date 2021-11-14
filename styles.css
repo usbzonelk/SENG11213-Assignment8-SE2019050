@@ -1,0 +1,304 @@
+* {
+  box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #e5e6e7;
+  margin: 0;
+}
+
+.main-header {
+  width: 100%;
+  background-color: #c2c4c5b0;
+  margin: 0;
+  font-weight: 600;
+}
+
+.nav_bar--itm {
+  margin: 0 5px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  flex-basis: 0;
+}
+
+.nav_itm {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.nav_bar--ul {
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: 9rem;
+  margin-bottom: 2rem;
+  margin-top: 0.7rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.secondary_container {
+  display: flex;
+}
+
+.categories--ul {
+  margin: 0.3rem;
+  padding: 0 0 0.4rem 0;
+  width: 10rem;
+  border: 0.1rem solid rgb(89, 255, 47);
+}
+
+.category--name {
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+}
+
+.category--title {
+  background-color: rgb(89, 255, 47);
+  color: white;
+  margin: 0;
+}
+
+a:hover,
+a:active {
+  color: rgb(89, 255, 47);
+  border-bottom: 4px solid rgb(89, 255, 47);
+}
+
+.nav_social {
+  margin-right: 1rem;
+}
+
+.info_bar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.info_bar--ul {
+  flex-grow: 1;
+  flex-basis: 0em;
+  list-style: none;
+}
+
+.container_slider {
+  z-index: -2;
+  background-image: url("https://blogger.googleusercontent.com/img/a/AVvXsEiAMl4kVRv1WY6ULvmvCmD3k_9mB2Sr-mP8knDPFS3FMmS9u_2vGwV9QaY2uZhIsI5tzbOnIFCxhz2DmbrYrUMiBh_VV2dkC7_jlr3E-p2BYBI_G7GF7LawWHBipyS1R7PXa5UcuZQ35385BVYDnhKfcU5cPcu1W3DlTZ8vrZhPYlwDi4aOBygW5Lr2=s1129");
+  width: 100%;
+  height: 400px;
+  background-size: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-slider-text {
+  padding-top: 6rem;
+
+  padding-left: 10.5rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.slider_heading {
+  font-size: xx-large;
+  font-weight: 800;
+}
+
+.container-slider-subtext {
+  padding-top: 0.1rem;
+
+  padding-left: 10.5rem;
+}
+
+.product-details > h1 {
+  padding-top: 0rem;
+  padding-left: 34.5rem;
+  padding-bottom: 0;
+  margin: auto;
+  margin-bottom: 0;
+}
+
+.our-products {
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  margin: 20px 1rem;
+}
+
+.product-1 {
+  background-image: url("https://technext.github.io/ogani/img/featured/feature-1.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+
+  margin: auto;
+  border-radius: 50%;
+}
+
+.product-2 {
+  background-image: url("https://technext.github.io/ogani/img/featured/feature-2.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.product-3 {
+  border-radius: 50%;
+  background-image: url("https://technext.github.io/ogani/img/featured/feature-3.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+.product-4 {
+  border-radius: 50%;
+  background-image: url("https://technext.github.io/ogani/img/featured/feature-4.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+.product-5 {
+  border-radius: 50%;
+  background-image: url("https://technext.github.io/ogani/img/featured/feature-5.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.product-6 {
+  border-radius: 50%;
+  background-image: url("https://technext.github.io/ogani/img/featured/feature-6.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.product-7 {
+  border-radius: 50%;
+  background-image: url("https://technext.github.io/ogani/img/featured/feature-7.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.product-8 {
+  border-radius: 50%;
+  background-image: url("https://technext.github.io/ogani/img/featured/feature-8.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.product-description {
+  font-weight: 600;
+
+  margin: auto;
+  text-align: center;
+}
+
+.above-footer {
+  width: 100%;
+  height: 200px;
+}
+
+.line {
+  background-color: rgba(199, 194, 194, 0.514);
+  height: 1px;
+  margin: auto;
+  width: 75%;
+}
+
+.footer {
+  margin-top: 1.7rem;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  margin-left: 11vw;
+}
+
+.footer-link {
+  font-weight: 600;
+  font-size: larger;
+}
+
+.footer-logo {
+  height: 100px;
+  width: 119px;
+  margin: auto;
+  margin-left: 20vw;
+  background-repeat: no-repeat;
+  background-image: url("https://technext.github.io/ogani/img/logo.png");
+}
+
+.payment-methods {
+  background-image: url("https://technext.github.io/ogani/img/payment-item.png");
+  height: 23px;
+  width: 286px;
+  margin: auto;
+  background-repeat: no-repeat;
+}
+
+.footer-logo-text {
+  margin: auto;
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: large;
+}
+
+.secondary_container {
+  margin-top: -1rem;
+  margin-left: 25vw;
+  margin-bottom: 1rem;
+}
+
+.search_box {
+  margin: auto;
+  width: 30vw;
+  height: 2rem;
+  border-radius: 1rem;
+  border: 4px solid rgb(89, 255, 47);
+  font-weight: 800;
+  color: blue;
+}
+
+.search_box :focus{
+  border: 4px solid rgb(89, 255, 47);
+}
+.search_button {
+  font-weight: 600;
+  font-size: larger;
+  border-radius: 1rem;
+  background-color: rgb(89, 255, 47);
+  font-style: oblique;
+  color: blue;
+}
